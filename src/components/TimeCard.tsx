@@ -19,7 +19,7 @@ export default function TimeCard({
                 className={`relative top-3 z-0 f-full h-12 rounded-t-xl ${topColor}`}
             >
                 <img
-                    src={`/public/images/icon-${icon}.svg`}
+                    src={`/images/icon-${icon}.svg`}
                     alt={title}
                     className='ml-auto mr-5 w-14'
                 />
@@ -28,7 +28,7 @@ export default function TimeCard({
                 <div className='flex justify-between items-center'>
                     <p className='text-white font-medium text-lg'>{title}</p>
                     <img
-                        src='/public/images/icon-ellipsis.svg'
+                        src='/images/icon-ellipsis.svg'
                         alt='icon ellipsis'
                         className='cursor-pointer'
                     />

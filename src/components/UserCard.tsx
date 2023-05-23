@@ -10,7 +10,7 @@ function UserCard({ changeTime, time }: UserCardProps) {
             <div className='bg-blue p-5 rounded-xl flex md:flex-col md:items-start items-center md:gap-0 gap-2'>
                 <div className='p-[2px] bg-white w-fit rounded-full'>
                     <img
-                        src='/public/images/image-jeremy.png'
+                        src='/images/image-jeremy.png'
                         alt='Jeremy'
                         className=' w-16'
                     />
